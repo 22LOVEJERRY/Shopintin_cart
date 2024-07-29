@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: fit-content;
+}
+
+header{
+    width: 100%;
+    height: 55px;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+header nav{
+    display: flex;
+    gap: 40px;
+}
+
+header nav a{
+    font-size: 17px;
+    color: grey;
+    transition: 0.1s;
+}
+
+header nav a:hover{
+    color: darkorange;
+}
+
+header div a{
+    font-size: 18px;
+    padding: 3px 6px;
+    color: black;
+    border: 1px solid black;
+    transition: 0.1s;
+}
+
+header div a:hover{
+    color: white;
+    background-color: darkorange;
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .air{
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+    padding: 50px 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .air p{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+ }
+
+ .air p b{
+    font-size: 80px;
+    font-weight: 700;
+    color: darkorange;
+ }
+
+ .air p a{
+    font-size: 25px;
+    font-weight: 200;
+    color: black;
+    padding: 5px 60px;
+    border: 1px solid black;
+    transition: 0.1s;
+ }
+
+ .air p a:hover{
+    color: white;
+    background-color: darkorange;
+ }
+
+ .air article{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+ }
+
+ .air article span img{
+    transform: rotate(-20deg) scaleX(-1);
+ }
+
+ .air article div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10px;
+ }
+
+ .air article div img{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid black;
+ }
+
+ .category{
+    width: 100%;
+    padding: 30px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ }
+
+ .category h2{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 300;
+ }
+
+ .category article{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+ }
+
+ .category article span{
+    padding: 20px 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+
+ .category article span img{
+    width: 150px;
+    height: 150px;
+ }
+
+ .category article span p{
+    font-size: 20px;
+    font-weight: 400;
+ }
+
+ .order{
+   width: 100%;
+   padding-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+ }
+
+ .order h2{
+   margin-top: 30px;
+   font-size: 40px ;
+   font-weight: 300;
+ }
+
+ .order article{
+   width: 100%;
+   background-color: rgb(180, 180, 180);
+   padding: 20px 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .order article div{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+ }
+
+ .order article div nav{
+   padding: 5px 50px;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+ }
+
+ .order article div nav a{
+   color: black;
+   font-size: 20px;
+ }
+
+ .order article p{
+   width: 40%;
+   background-color: white;
+   padding: 15px 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 5px;
+ }
+
+ .order article p b{
+   font-size: 23px;
+   font-weight: 500;
+   color: darkorange;
+ }
+
+ .order article p span{
+   font-size: 20px;
+   font-weight: 300;
+ }
+
+ .order article p a{
+   font-size: 20px;
+   font-weight: 400;
+   color: white;
+   background-color: darkorange;
+   padding: 5px 10px;
+   border: 1px solid black;
+   transition: 0.1s;
+ }
+ 
+ .order article p a:hover{
+   color: black;
+   background-color: rgb(180, 180, 180) ;
+ }
+
+ .contact{
+  width: 100%;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+ }
+
+ .contact h2{
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: 300;
+ }
+
+ .contact article{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+ }
+
+ .contact article div{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+ }
+
+ .contact article div p{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+
+ .contact article div p b{
+  font-size: 20px;
+  color: darkorange;
+ }
+
+ footer{
+  width: 100%;
+  height: 30px;
+  background-color: rgb(185, 182, 182);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+footer p{
+  font-size: 13px;
+}

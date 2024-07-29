@@ -1,0 +1,176 @@
+@media(max-width:450px){
+   
+    
+    header{
+        padding: 5px 15px;
+        position: fixed;
+        background-color: black;
+        top: 0;
+       
+    }
+    
+    header p{
+      color: white;
+        font-size: 14px;
+    }
+    
+    header nav{
+        gap: 10px;
+    }
+    
+    header nav a{
+        font-size: 14px;
+   
+    }
+    
+    
+    header div a{
+        font-size: 14px;
+        padding: 3px 6px;
+        color: white;
+        border: 1px solid white;
+    }
+    
+    
+    main{
+        margin-top: 55px;
+    }
+    
+     .air{
+        min-height: calc(100vh - 55px);
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+     }
+    
+     .air p{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+     }
+    
+     .air p b{
+        font-size: 60px;
+     }
+    
+     .air p a{
+        font-size: 20px;
+        padding: 5px 40px;
+     }
+    
+    
+     .air article{
+        gap: 50px;
+     }
+    
+    
+     .air article div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 20px;
+     }
+    
+   
+     .category{
+        width: 100%;
+        min-height: calc(100vh - 55px);
+        padding: 5px 5px;
+        gap: 5px;
+     }
+    
+     .category h2{
+        margin-top: 5px;
+        font-size: 25px;
+     }
+    
+     .category article{
+        margin-top: 25px;
+        gap: 20px;
+     }
+    
+     .category article span{
+        padding: 10px 20px;
+        gap: 1px;
+     }
+    
+     .category article span img{
+        width: 100px;
+        height: 100px;
+     }
+    
+     .category article span p{
+        font-size: 20px;
+     }
+    
+     .order{
+       min-height: calc(100vh - 55px);
+       padding-top: 10px;
+       gap: 30px;
+     }
+    
+     .order h2{
+       margin-top: 5px;
+       font-size: 25px ;
+     }
+    
+     .order article{
+       background-color: rgb(180, 180, 180);
+       padding: 20px 20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 10px;
+     }
+    
+     .order article div{
+       width: 100%;
+       gap: 5px;
+     }
+    
+     .order article div nav{
+       padding: 5px 40px;
+     }
+    
+    
+     .order article p{
+       width: 100%;
+     }
+    
+     .contact{
+     min-height: calc(100vh - 55px);
+      padding: 20px 50px;
+   
+     }
+    
+     .contact h2{
+      margin-top: 5px;
+      font-size: 25px;
+     }
+    
+     .contact article{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+     }
+    
+     .contact article div{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 40px;
+     }
+    
+    footer p{
+      font-size: 11px;
+    }
+}
