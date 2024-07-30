@@ -91,6 +91,9 @@ main{
     font-size: 80px;
     font-weight: 700;
     color: darkorange;
+    animation: disco;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
  }
 
  .air p a{
@@ -322,3 +325,18 @@ main{
 footer p{
   font-size: 13px;
 }
+
+/* Animation key frames */
+
+@keyframes disco{
+   0%{
+      color: red;
+   }
+   50%{
+      color: blue;
+   }
+   100%{
+      color: green;
+   }
+}
+
