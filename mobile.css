@@ -8,6 +8,14 @@
         top: 0;
        
     }
+
+    
+header article{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 3px;
+}
     
     header p{
       color: white;
@@ -15,7 +23,7 @@
     }
     
     header nav{
-        gap: 10px;
+        gap: 7px;
     }
     
     header nav a{
@@ -99,8 +107,8 @@
      }
     
      .category article span img{
-        width: 100px;
-        height: 100px;
+        height: 80px;
+        object-fit: contain;
      }
     
      .category article span p{
