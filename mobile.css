@@ -1,184 +1,297 @@
 @media(max-width:450px){
-   
-    
-    header{
-        padding: 5px 15px;
-        position: fixed;
-        background-color: black;
-        top: 0;
-       
-    }
 
-    
-header article{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   gap: 3px;
-}
-    
-    header p{
-      color: white;
-        font-size: 14px;
-    }
-    
-    header nav{
-        gap: 7px;
-    }
-    
-    header nav a{
-        font-size: 14px;
-   
-    }
-    
-    
-    header div a{
-        font-size: 14px;
-        padding: 3px 6px;
-        color: white;
-        border: 1px solid white;
-    }
-    
-    
-    main{
-        margin-top: 55px;
-    }
-    
-     .air{
-        min-height: calc(100vh - 55px);
-        padding: 10px 25px;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-     }
-    
-     .air p{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-     }
-    
-     .air p b{
-        font-size: 60px;
-     }
-    
-     .air p a{
-        font-size: 20px;
-        padding: 5px 40px;
-     }
-    
-    
-     .air article{
-        gap: 50px;
-     }
-    
-    
-     .air article div{
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        gap: 20px;
-     }
-    
-   
-     .category{
-        width: 100%;
-        min-height: calc(100vh - 55px);
-        padding: 5px 5px;
-        gap: 5px;
-     }
-    
-     .category h2{
-        margin-top: 5px;
-        font-size: 25px;
-     }
-    
-     .category article{
-        margin-top: 25px;
-        gap: 20px;
-     }
-    
-     .category article span{
-        padding: 10px 20px;
-        gap: 1px;
-     }
-    
-     .category article span img{
-        height: 80px;
-        object-fit: contain;
-     }
-    
-     .category article span p{
-        font-size: 20px;
-     }
-    
-     .order{
-       min-height: calc(100vh - 55px);
-       padding-top: 10px;
-       gap: 30px;
-     }
-    
-     .order h2{
-       margin-top: 5px;
-       font-size: 25px ;
-     }
-    
-     .order article{
-       background-color: rgb(180, 180, 180);
-       padding: 20px 20px;
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       gap: 10px;
-     }
-    
-     .order article div{
-       width: 100%;
-       gap: 5px;
-     }
-    
-     .order article div nav{
-       padding: 5px 40px;
-     }
-    
-    
-     .order article p{
-       width: 100%;
-     }
-    
-     .contact{
-     min-height: calc(100vh - 55px);
-      padding: 20px 50px;
-   
-     }
-    
-     .contact h2{
-      margin-top: 5px;
-      font-size: 25px;
-     }
-    
-     .contact article{
+  header{
+      height: 125px;
+      padding: 2px 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+  }
+  
+  
+  header div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+  }
+  
+  header div nav{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+  
+  }
+  
+  
+  header div span a{
+     padding: 1px 20px;
+     border: 1px solid black;
+     border-radius: 25px;
+  }
+  
+
+  
+   .air{
+      min-height: calc(100vh - 125px);
+      padding: 5px 25px;
+      display: flex;
+      flex-direction: column ;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+   }
+  
+   .air p{
       width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      gap: 2px;
+   }
+  
+   .air p b{
+      font-size: 60px;
+   }
+  
+   .air p a{
+      font-size: 20px;
+      padding: 5px 40px;
+   }
+
+  
+   .air article{
+      gap: 60px;
+   }
+   .air article div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       gap: 15px;
-     }
-    
-     .contact article div{
-      width: 100%;
+   }
+  
+  
+   .category{
+      min-height: calc(100vh - 125px);
+      padding: 10px 10px;
+   }
+  
+   .category h2{
+      margin-top: 10px;
+      font-size: 35px;
+      font-weight: 300;
+   }
+  
+   .category article{
+      margin-top: 20px;
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      gap: 40px;
-     }
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+   }
+  
+   .category article span{
+      padding: 20px 40px;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+   }
+  
+   .category article span img{
+      height: 150px;
+      object-fit: contain;
+   }
+  
+   .category article span p{
+      font-size: 20px;
+      font-weight: 400;
+   }
+  
+   .order{
+     min-height: calc(100vh - 125px);
+     padding-top: 50px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 40px;
+   }
+  
+   .order h2{
+     margin-top: 10px;
+     font-size: 35px ;
+   }
+  
+   .order article{
+     width: 100%;
+     background-color: rgb(180, 180, 180);
+     padding: 10px 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+   }
+  
+   .order article div{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+   }
+  
+   .order article div nav{
+     padding: 5px 50px;
+     border: 1px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+   }
+  
+   .order article div nav a{
+     color: black;
+     font-size: 20px;
+   }
+  
+   .order article p{
+     width: 100%;
+     background-color: white;
+     padding: 15px 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     gap: 5px;
+   }
+  
+   .order article p b{
+     font-size: 23px;
+     font-weight: 500;
+     color: darkorange;
+   }
+  
+   .order article p span{
+     font-size: 20px;
+     font-weight: 300;
+   }
+  
+   .order article p a{
+     font-size: 20px;
+     font-weight: 400;
+     color: white;
+     background-color: darkorange;
+     padding: 5px 10px;
+     border: 1px solid none;
+     transition: 0.1s;
+   }
+   
+   .order article p a:hover{
+     color: black;
+     background-color: rgb(180, 180, 180) ;
+   }
     
-    footer p{
-      font-size: 11px;
-    }
+   .contact{
+   min-height: calc(100vh - 125px);
+    padding: 50px 50px;
+    gap: 50px;
+  
+   }
+  
+   .contact h2{
+    margin-top: 30px;
+    font-size: 35px;
+   }
+  
+   .contact article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+   }
+  
+   .contact article div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+   }
+  
+   .contact article div p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+  
+   .contact article div p b{
+    font-size: 20px;
+    color: darkorange;
+   }
+  
+   footer{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(185, 182, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  footer p{
+    font-size: 10px;
+  }
+  
+  /* Animation key frames */
+  
+  @keyframes disco{
+     0%{
+        color: red;
+     }
+     50%{
+        color: blue;
+     }
+     100%{
+        color: green;
+     }
+  }
+  
+  @keyframes fling{
+     0%{
+        background-color:  rgb(180, 180, 180) ;
+     }
+  
+     20%{
+        background-color: aqua;
+     }
+     40%{
+        background-color: darkslategrey;
+     }
+  
+     60%{
+        background-color: khaki;
+     }
+     80%{
+        background-color: mediumpurple;
+     }
+     100%{
+        background-color: slateblue;
+     }
+  }
+  
+  
 }
